@@ -1,0 +1,50 @@
+<html>
+<body>
+<script>
+Object.prototype.properties = function() {
+	var result = [];
+	for(var property in this)
+		result.push(property);
+	return result;	
+}
+
+function testProperties(collection, source) {
+	
+	var result1 = source.properties();
+	document.write(result1[0], "<br/>");
+	var result2 = collection[0].properties();
+	document.write(result2, "<br/>")
+	document.write(source);
+	var count = 0;
+	var index = 0;
+	for(var i=0; i<result2.length; i++) {
+		if(result2[i] === result1[0]) {
+			count = 1;
+			index = i;
+		}			
+	}	
+	var propValues = [];
+	if(count) {
+		for(var j=0; j<collection.length; j++) {
+			if(source.result1[0] === collection[j].result2[index])
+				propValues.push(collection[j]);
+		}
+	}
+	return propValues;
+}
+
+var collection = [
+
+	{first: "Manish", last: "Pal"},
+	{first: "Satish", last: "Pal"},
+	{first: "Ankit", last: "Singh"}
+
+];
+
+var source = {last: "Pal"};
+var result = testProperties(collection, source);
+document.write(result);
+
+</script>
+</body>
+</html>

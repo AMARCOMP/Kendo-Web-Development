@@ -1,0 +1,32 @@
+<html>
+<body>
+<script>
+ 
+function speak(line) {
+	document.write("The ", this.adjective, " rabbit says '", line, "'.<br/>");
+}
+
+var whiteRabbit = {adjective: "white", speak: speak};
+var fatRabbit = {adjective: "fat", speak: speak};
+
+whiteRabbit.speak("I'm the white rabbit!");
+fatRabbit.speak("I'm the fat rabbit!");
+ speak.apply(fatRabbit, ["Hello guys!"]);
+ 
+var brownRabbit = {
+	adjective: "brown",
+	speak: function(line, sline) {
+		document.write("The ", this.adjective, " rabbit says '", line, " and ", line, "'.<br/>");
+	},
+	runs: function(frm, to) {
+		document.write("The ", this.adjective, " rabbit says 'I runs ", frm, " to ", to, "'.<br/>");
+	}
+};
+
+speak.call(brownRabbit, ["Hey, I'm the brown own. Bless me!"], ["that's it"]); 
+//run.apply(brownRabbit, ["A", "B"]);
+runs.call(brownRabbit, ["the cupboard"], ["the fridge"]);
+
+</script>
+</body>
+</html>

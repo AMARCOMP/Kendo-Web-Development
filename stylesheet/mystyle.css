@@ -1,0 +1,392 @@
+/* header begins */
+
+.top-bar {
+	display: -webkit-inline-box;
+}
+.navbar-fixed-top{
+	position:fixed;
+}
+.navbar {
+	margin-bottom: 0;
+	z-index: 999;
+	background-color: #447cbf;
+}
+.logo-image {
+	width: 28%;
+}
+.logo-image > a > img {
+	width: 35%;
+    margin-left: 5%;
+}
+.left-top {
+	display: -webkit-inline-box;
+	margin-top: 7%;
+}
+.search-bar {
+	width: 200%;
+	margin-left: 0%;
+}
+.search-bar > form > .input-group {
+	width: 95%;
+	display: -webkit-inline-box;
+}
+.search-bar > form > .input-group > .form-control {
+	border-radius: 0;
+}
+.search-bar > form > .input-group > .input-group-addon {
+	background-color: #2a343f;
+	border-radius: 0;
+	border: 0;
+}
+.cart-btn > label {
+	border-radius: 1%;
+}
+
+.cart-btn {
+	width: 150%;
+	padding-left: 4%;
+	margin-left: 41%;
+}
+#cart-btn > button {
+	border-radius: 2px;
+}
+#search-bar input[type="text"] {
+	border-radius: 2px;
+    margin-top: 1px;
+    margin-bottom: -2px;
+    padding: 3.5% 3%;
+}
+#nav-menu > ul {
+	margin-top: -1%;
+    margin-right: 4%;
+}
+.nav li {
+	margin-right: 53px;
+	/*box-shadow: 2px 2px 0px darkgrey;*/
+}
+
+#nav-menu {
+	margin-bottom: 0.6%;
+}
+#nav-menu ul > li > a {
+	padding: 6px 12px;
+	border-radius: 0;
+	background-color: #447cbf; 
+	color: white;
+	border: 0; 
+}
+#nav-menu ul > li > a:hover {
+	background-color: #3065a5;
+}
+
+
+/* login and signup button */
+.popover-markup a:hover,
+.popover-markup:focus,
+.popover-markup:active {
+	background-color: #3065a5;
+	color: white;
+}
+.popover-markup .down {
+	background-color: #3065a5;
+	color: white;
+}
+.popover-markup > a {
+	padding: 6px 12px;
+	border-radius: 0;
+	background-color: #447cbf; 
+	color: white;
+	border: 0;
+}
+
+
+.popover-markup .popover {
+	top: 40px;
+	left: -178%;
+    display: block;
+    width: 474%;
+    background-color: #2a343f;
+    border-radius: 0;
+    color: white;
+    border: none;
+}
+.popover-markup .popover .arrow {
+	left: 50%;
+	border-bottom-color: #2a343f;
+	opacity: 0.2;
+}
+.popover-markup .popover h3 {
+	border-radius: 0;
+    background-color: #2a343f;
+    text-align: center;
+    margin: 5% auto 8% auto;
+    border-bottom: 0;
+}
+.popover-markup .popover .popover-content .form-group #uname {
+	font-weight: 100%;
+	margin-bottom: 5%;
+}
+.popover-markup .popover .popover-content .form-group > input {
+	border-radius: 0;
+	background-color: #2a343f; 
+}
+.popover-markup .popover .popover-content .form-group #pwd {
+	margin: 5% auto;
+	font-weight: 100;
+}
+.popover-markup .popover .popover-content > p {
+	margin: 10% auto 5% auto;
+}
+.popover-markup .popover .popover-content > p > a {
+	color: white;
+	font-size: 13px;
+}
+.popover-markup .popover .popover-content > p > button {
+	border-radius: 0;
+	background-color: #447cbf;
+	margin-left: 26%;
+	padding: 2% 6%;
+}
+
+
+
+/* header ends*/
+
+.prdt-info{
+    background-color:white;
+    padding:10px;
+  margin-top:7%;
+    
+}
+.back-button{
+	height: auto;
+	width: auto;
+	margin: 1% 3% 3% 5%;
+}
+.prdt-title{
+	color:#447CBF;
+	float:left;
+	margin-left: 9.5%;
+	margin-top: 0.1%;
+	margin-right:49%;
+}
+.prdt-price{
+	margin-top: 4.5%;
+	color: #40b035;
+}
+.prdt-image{
+	height:20%;
+	width: 68%;
+	margin: 2% 17% 0% 20%;
+	background-color: white;
+}
+.carousel{
+position:relative;
+}
+.carousel-control.left{
+	background-image: linear-gradient(to right,white 0,white 100%);
+	font-size: 170%;
+	color:#447CBF;
+}
+.carousel-control.right{
+background-image: linear-gradient(to right,white 0,white 100%);
+left:121%;
+	top:41%;
+	font-size: 170%;
+	color:#447CBF;
+}
+.carousel-control{
+	bottom:0%;
+	left:-31%;
+	top:40.5%;
+	width:4%;
+	color:black;
+	text-shadow:0 1px 2px white;
+	background-color: white;
+	opacity: 0.8;
+
+}
+.left-grid{
+	margin-right: -2%;
+	width:46%;
+}
+table.a{
+  width:60%;
+  }
+  td.b {
+    height: 50px;
+    vertical-align: center;
+}
+
+table{
+  width:54%;
+  }
+  table.specification{
+  width:45%;
+  }
+  td {
+    height: 25px;
+    vertical-align: center;
+}
+th{
+	font-weight: normal;
+}
+/*
+<!--search box-->
+#search {
+    float: right;
+    margin-top: 9px;
+    width: 250px;
+}
+
+.search {
+    padding: 5px 0;
+    width: 230px;
+    height: 30px;
+    position: relative;
+    left: 10px;
+    float: left;
+    line-height: 22px;
+}
+
+    .search input {
+        position: absolute;
+        width: 0px;
+        float: Left;
+        margin-left: 210px;
+        height: 30px;
+        line-height: 18px;
+        padding: 0 2px 0 2px;
+        border-radius:1px;
+    }
+
+        .search:hover input, .search input:focus {
+            width: 200px;
+            margin-left: 0px;
+        }
+
+.btn {
+    height: 30px;
+    position: absolute;
+    right: 0;
+    top: 5px;
+    border-radius:1px;
+}*/
+
+<!--end search box-->
+
+.cart-button{
+	margin-left: 0%;
+	margin-top: 3%;
+	margin-right: 0%;
+}
+	button.cart{
+  background-color: #2A343F;
+  border: none;
+  color:white;
+  width:49.2%;
+  padding: 2.5%;
+  text-align:center;
+  text-decoration:none;
+  display:inline-block;
+  font-size:16px;
+  margin:4px 2px;
+  transition-duration: :0.4s;
+  cursor:pointer;
+}
+button.cart:hover{
+	opacity:0.7;
+	font-size:125%;
+}
+button.buy{
+  background-color: #447CBF;
+  border: none;
+  color:white;
+  width:49.2%;
+  padding: 2.5%;
+  text-align:center;
+  text-decoration:none;
+  display:inline-block;
+  font-size:16px;
+  margin:4px 2px;
+  transition-duration: 0.4s;
+  cursor:pointer;
+}
+button.buy:hover{
+	opacity:0.7;
+	font-size:125%;
+}
+.modal {
+   top: 25%;
+   margin-left: 20%;
+   width:auto;
+   height:auto;
+}
+.modal-dilog{
+	width:70%
+	margin:27px auto;
+}
+.modal-header{
+	padding:2%;
+	border-bottom: 2px solid #5e5e5;
+	padding-bottom: 0%;
+}
+.modal-body{
+	padding:12px;
+}
+button.close
+{
+	margin-right: 3%;
+	margin-top: 0%;
+}
+.modal-title
+{
+	margin: 2%;
+}
+/* footer */
+.footer {
+	background-color: #2a343f;
+	padding-top: 2%;
+	padding-bottom: 1%;
+}
+.footer > p > a > .fa-stack {
+	margin: auto 2%;
+}
+.footer > nav {
+	margin: 2% auto;
+}
+.footer > nav > a {
+	margin: auto 2%;
+	color: #b0bec5;
+	font-size: 15px;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.portrait1 {
+    height: 80px;
+    width: 30px;
+    float:left;
+    border:1px solid gray;
+   height:36%;
+}
+.portrait2 {
+    height: 80px;
+    width: 30px;
+    float: left;
+    margin-left: 6%;
+    border:1px solid gray;
+    height:36%;
+}
+.portrait3 {
+    height: 80px;
+    width: 30px;
+    float:left;
+    margin-left:6%;
+    border:1px solid gray;
+    height:36%;
+}
+
+

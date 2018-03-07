@@ -1,0 +1,25 @@
+<html>
+<body>
+<script>
+
+function Rabbit(adjective) {
+	this.adjective = adjective;
+	this.speak = function (line) {
+		document.write("This ", this.adjective, " says ", "'", line, "'.<br/>")
+	}
+}
+Rabbit.prototype.dance = function() {
+	document.write("The ", this.adjective, " rabbit dances a jig.", "<br/>")
+}
+
+var killerRabbit = new Rabbit("killer");
+//killerRabbit.speak("AAAAAAAAAAAHHHHHH!");
+Rabbit.prototype.teeth = "small";
+document.write(killerRabbit.teeth, "<br/>");
+killerRabbit.teeth = "long, sharp and bloody";
+document.write(killerRabbit.teeth, "<br/>");
+document.write(Rabbit.prototype.teeth);
+
+</script>
+</body>
+</html>

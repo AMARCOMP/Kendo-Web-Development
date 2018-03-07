@@ -1,0 +1,346 @@
+/* making the page reonsive */
+/*
+@media screen and (max-width: 1060px) {
+	#left-body {width: }
+	#main-body {width: }
+}*/
+@media screen and (max-width: 768px) {
+	#left-body {width: 60%}
+	#main-body {width: 95%; margin: 5%;}
+}
+
+
+/* header begins */
+
+.top-bar {
+	display: -webkit-inline-box;
+}
+.navbar {
+	margin-bottom: 0;
+	z-index: 999;
+	background-color: #447cbf;
+}
+.logo-image {
+	width: 28%;
+}
+.logo-image > a > img {
+	width: 35%;
+    margin-left: 5%;
+    max-width: 100%;
+}
+.left-top {
+	display: -webkit-inline-box;
+	margin-top: 7%;
+	width:214%;
+	
+}
+.search-bar {
+	/*width: 200%;
+	margin-left: 52%;*/
+	width:100%;
+	margin-left:0%;
+}
+.search-bar > form > .input-group {
+	width: 95%;
+	display: flex;
+}
+.search-bar > form > .input-group > .form-control {
+	border-radius: 0;
+}
+.search-bar > form > .input-group > .input-group-addon {
+	background-color: #2a343f;
+	border-radius: 0;
+	border: 0;
+}
+.cart-btn > label {
+	border-radius: 1%;
+}
+
+.cart-btn {
+	/*width: 150%;*/
+	display:-webkit-inline-box;
+	width:75%;
+	padding-left: 4%;
+	margin-left: 41%;
+}
+#cart-btn > button {
+	border-radius: 2px;
+}
+#search-bar input[type="text"] {
+	border-radius: 2px;
+    margin-top: 1px;
+    margin-bottom: -2px;
+    padding: 3.5% 3%;
+}
+#nav-menu > ul {
+	margin-top: -1%;
+    margin-right: 4%;
+}
+.nav li {
+	margin-right: 53px;
+	/*box-shadow: 2px 2px 0px darkgrey;*/
+}
+
+#nav-menu {
+	margin-bottom: 0.6%;
+}
+#nav-menu ul > li > a {
+	padding: 6px 12px;
+	border-radius: 0;
+	background-color: #447cbf; 
+	color: white;
+	border: 0; 
+}
+#nav-menu ul > li > a:hover {
+	background-color: #3065a5;
+}
+
+
+/* login and signup button */
+.popover-markup a:hover,
+.popover-markup:focus,
+.popover-markup:active {
+	background-color: #3065a5;
+	color: white;
+}
+.popover-markup .down {
+	background-color: #3065a5;
+	color: white;
+}
+.popover-markup > a {
+	padding: 6px 12px;
+	border-radius: 0;
+	background-color: #447cbf; 
+	color: white;
+	border: 0;
+}
+
+
+.popover-markup .popover {
+	top: 40px;
+	left: -178%;
+    display: block;
+    width: 474%;
+    background-color: #2a343f;
+    border-radius: 0;
+    color: white;
+    border: none;
+}
+.popover-markup .popover .arrow {
+	left: 50%;
+	border-bottom-color: #2a343f;
+	opacity: 0.2;
+}
+.popover-markup .popover h3 {
+	border-radius: 0;
+    background-color: #2a343f;
+    text-align: center;
+    margin: 5% auto 8% auto;
+    border-bottom: 0;
+}
+.popover-markup .popover .popover-content .form-group #uname {
+	font-weight: 100%;
+	margin-bottom: 5%;
+}
+.popover-markup .popover .popover-content .form-group > input {
+	border-radius: 0;
+	background-color: #2a343f; 
+}
+.popover-markup .popover .popover-content .form-group #pwd {
+	margin: 5% auto;
+	font-weight: 100;
+}
+.popover-markup .popover .popover-content p {
+	margin: 10% auto 5% auto;
+}
+.popover-markup .popover .popover-content p > a {
+	color: white;
+	font-size: 13px;
+}
+.popover-markup .popover .popover-content p > button {
+	border-radius: 0;
+	background-color: #447cbf;
+	margin-left: 26%;
+	padding: 2% 6%;
+}
+
+
+
+/* header ends*/
+
+
+
+
+/* main body */
+
+.container-fluid #main-body {
+	padding-top: 1%;
+}
+#left-body {
+	box-shadow: 2px 2px 5px;
+}
+#left-body #header{
+	padding: 6% 5%;
+	background-color: rgba(255, 204, 128, 0.66);
+}
+#left-body #header p {
+	color: rgba(255, 140, 0, 0.85);
+}
+#classification #people {
+	margin: -2% 0 5% 5%;
+}
+#classification #people #clothtype,
+#classification #people #clothtype1,
+#classification #people #clothtype2 {
+	margin: -2% 0 5% 15%;
+	font-size: 12px;
+	color: #447cbf;
+}
+#manufacturerlist {
+	width: 94%;
+	margin: 0 0 5% 5%;
+	padding: 1% 7%;
+	font-size: 13px;
+}
+#left-body #main-cont {
+	background-color: white;
+    margin-top: -9px;
+    padding: 6% 5%;
+}
+#main-cont > h4 {
+	color: #447cbf;
+}
+
+#classification > p a:hover,
+#classification > p a:active,
+#people > p a:hover,
+#people > p a:active,
+#price-select > p a:hover,
+#brand-select > p a:hover,
+#price-select > p a:active,
+#brand-select > p a:active,
+#size-select > p a:hover,
+#size-select > p a:active {
+	text-decoration: none;
+	outline-offset: 0;
+}
+#price-select #price-range > p {
+	margin: -2% 0 5% 5%;
+	font-size: 13px;
+	color: #447cbf;
+}
+#price-select #price-range > p i {
+	font-size: 15px;
+	margin: 0 3% 0 10%;
+}
+#price-select #price-range > p input[type="number"] {
+	width: 24%;
+	padding-left: 3%;
+	margin-left: 2%;
+}
+#brand-select #brand-name {
+	color: #447cbf;
+}
+#size-select #size-range {
+	margin: -1% 0 5% 10%;
+	color: #447cbf;
+	font-size: 13px;
+}
+
+/* left part ends */
+
+
+/* Products */
+#product-detail {
+	background-color: white;
+    border-radius: 1%;
+    max-width: 290px;
+    width: 275px;
+    float: left;
+    margin: 0 15px 65px 60px;
+    box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.74);
+}
+#product-detail #image {
+	background-color: #447cbf;
+	height: 200px;
+	border-top-left-radius: 1%;
+	border-top-right-radius: 1%;
+}
+#product-detail #image-detail {
+	padding: 3% 5% 2% 5%;
+}
+#product-detail #image-detail h4 {
+	color: #447cbf;
+	font-size: 16px;
+}
+#product-detail #image-detail > div {
+	display: -webkit-inline-box;
+	margin: 10px auto;
+}
+#product-detail #image-detail > div > span {
+	margin-right: 73px;
+}
+
+.foo {
+    border: 1px solid red;
+    height: 15px;
+    width: 15px;
+    margin-right: 3px;
+}
+
+
+#product-detail #image-detail > p > input {
+	width: 5%;
+    height: 13px;
+   /* background-color: black; */
+    border: 0;
+}
+#product-detail #image-detail > p > #size {
+	margin-right: 32%;
+	font-size: 13px;
+}
+#product-detail #image-detail > #price-detail #manuf {
+	color: #f99c1c;
+}
+#product-detail #image-detail > #price-detail #price {
+	margin-left: 102px;
+	color: #447cbf;
+}
+
+.rotate {
+	-moz-transition: all 0.4s linear;
+	-webkit-transition: all 0.4s linear;
+	transition: all 0.4s linear;
+}
+.rotate.down {
+	-moz-transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+
+/* Main body */
+
+#pdts {
+	margin-bottom: 5%;
+}
+
+
+/* menu buttons */
+
+/* footer */
+.footer {
+	background-color: #2a343f;
+	padding-top: 2%;
+	padding-bottom: 1%;
+}
+.footer > p > a > .fa-stack {
+	margin: auto 2%;
+}
+.footer > nav {
+	margin: 2% auto;
+}
+.footer > nav > a {
+	margin: auto 2%;
+	color: #b0bec5;
+	font-size: 15px;
+}

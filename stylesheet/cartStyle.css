@@ -1,0 +1,35 @@
+ul.headerlist{
+list-style: none;
+}
+li.quantitylist{
+  margin-left:33%;
+}
+li.manufacturerlist{
+  margin-left:9%;
+
+}
+li.itempricelist{
+margin-left:9%;
+}
+li.subtotallist{
+margin-left:10%;
+}
+/* footer */
+.footer {
+	background-color: #2a343f;
+	padding-top: 2%;
+	padding-bottom: 1%;
+}
+.footer > p > a > .fa-stack {
+	margin: auto 2%;
+}
+.footer > nav {
+	margin: 2% auto;
+}
+.footer > nav > a {
+	margin: auto 2%;
+	color: #b0bec5;
+	font-size: 15px;
+}
+
+

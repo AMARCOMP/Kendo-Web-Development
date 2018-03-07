@@ -1,0 +1,22 @@
+<html>
+<body>
+<script>
+function between(string, start, end) {
+	
+	var startAt = string.indexOf(start);
+	if(startAt == -1) 
+		return undefined;
+	startAt += start.length;	
+	var endAt = string.indexOf(end, startAt);
+	if(endAt == -1)
+		return undefined;
+	return string.slice(startAt, endAt);
+}
+var input = prompt("Tell me something. We will print the text under the parenthesis", "");
+var parenthesized = between(input, "(", ")");
+if(parenthesized != undefined)
+	document.write("You parenthesized '", parenthesized, "'.")
+
+</script>
+</body>
+</html>
